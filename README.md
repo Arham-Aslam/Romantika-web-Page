@@ -14,7 +14,7 @@ The website was designed to provide an attractive and user-friendly online prese
 
 ## Viewing Recommendation
 
-The website can be viewed on mobile phones, laptops, and other compatible devices. However, **laptop, desktop, or wider-screen viewing is recommended** for the best experience, as mobile responsiveness will be further improved in future updates.
+> The website can be viewed on mobile phones, laptops, and other compatible devices. However, **laptop, desktop, or wider-screen viewing is recommended** for the best experience, as mobile responsiveness will be further improved in future updates.
 
 ## Future Improvements
 
