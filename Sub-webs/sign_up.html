@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <style>
+            h1 {
+                margin-left: 45%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+            #ans {
+                width: 500px;
+                margin: 10px;
+            }
+            #tbl {
+                width: 100%;
+                align-items: center;
+                margin-left: 20%;
+            }
+
+            #sbt {
+                margin-top: 30px;
+                margin-left: 20%;
+                width: 300px;
+                height: 30px;
+                background-color: #F5D77A;
+                border: none;
+                border-radius: 8px;
+            }
+
+
+            @media (max-width: 800px) {
+                #ans {
+                width: 300px;
+            }
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>SIGN UP</h1>
+
+         <hr>
+         <br><br>
+
+        <form>
+            <table id="tbl">
+                <tr>
+                    <td>First Name :</td>
+                    <td><input type="text" id="ans" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name :</td>
+                    <td><input type="text" id="ans" required></td>
+                </tr>
+                <tr>
+                    <td>Email Address :</td>
+                    <td><input type="email" id="ans" required></td>
+                </tr>
+                <tr>
+                    <td>Contact No. :</td>
+                    <td><input type="tel" maxlength="10" pattern="\d{10}" id="ans" required></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth :</td>
+                    <td><input type="date" id="ans" required></td>
+                </tr>
+            </table>
+
+            <br><br>
+            <hr>
+            <br><br>
+            
+
+            <table id="tbl">
+                <tr>
+                    <td>New Password :</td>
+                    <td><input type="password" id="ans" minlength="8" required></td>
+                </tr>
+                <tr>
+                    <td>Conform Password :</td>
+                    <td><input type="password" id="ans" minlength="8" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" id="sbt">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
