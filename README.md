@@ -10,7 +10,7 @@ The website was designed to provide an attractive and user-friendly online prese
 * **Module:** Fundamentals of Web Technologies
 * **Technologies:** HTML, CSS, JavaScript
 * **Learning Resources:** W3Schools, freeCodeCamp
-* **Website:** [Romantika Cosmetics](https://arham-aslam.github.io/romantika-t-1/)
+* **Website:** [Romantika Cosmetics](https://arham-aslam.github.io/Romantika-web-Page/)
 
 ## Future Improvements
 
