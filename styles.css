@@ -423,6 +423,10 @@ button {
     border-radius: 10px;
   }
 
+  #review {
+    font-size: 15px;
+  }
+
   #ft_tbl tr {
      display: flex;
      flex-direction: column;
