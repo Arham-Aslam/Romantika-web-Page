@@ -76,7 +76,8 @@ main {
 
 h1 {
   padding-top: 50px;
-  font-family: Walbaum Display Heavy;
+  //font-family: Walbaum Display Heavy;
+  font-family: Maiandra GD;
   font-size: 50px;
 }
 
@@ -89,7 +90,7 @@ h2 {
   text-align: justify;
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 20px;
+  //font-size: 20px;
   font-family: 'Times New Roman';
 }
 
@@ -98,7 +99,7 @@ h2 {
 }
 
 #email {
-  width: 500px;
+  width: 50%;
   height: 30px;
   border-radius: 2px;
 }
@@ -293,7 +294,7 @@ button {
 
 #small_logos {
   width: 30px;
-  height: 30px%;
+  height: 30px;
   border-radius: 20px;
   margin-top: 5px;
 }
@@ -309,11 +310,25 @@ button {
 
 
 
+
+
+
 @media (min-width: 800px) {
+
+
+  #email {
+    width: 500px;
+    height: 30px;
+    border-radius: 2px;
+  }
   
   #header-img {
     height: 150px;
     width: 350px;
+  }
+
+  #passage {
+    font-size: 20px;
   }
 
   #products {
@@ -374,4 +389,40 @@ button {
   #ft-rws {
     width: 100%;
   }
+}
+
+
+
+
+/* Phone display */
+@media (max-width: 800px){
+
+  #header-img {
+    height : 100px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  #passage {
+    font-size: 12px;
+  }  
+
+  .slide img {
+    height: 250px;
+    object-fit: cover;  /* perfect fit without stretch */
+    border-radius: 10px;
+  }
+
+  #ft_tbl tr {
+     display: flex;
+     flex-direction: column;
+  }
+
+   #ft_tbl td {
+     display: block;
+     width: 100%;
+   }
+
 }
