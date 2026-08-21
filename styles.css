@@ -405,12 +405,17 @@ button {
     font-size: 30px;
   }
 
-  h3 {
-    font-size: 12px;
-
   #passage {
     font-size: 12px;
   }  
+
+  #video {
+    width: 90%;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
 
   .slide img {
     height: 250px;
