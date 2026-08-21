@@ -12,10 +12,6 @@ The website was designed to provide an attractive and user-friendly online prese
 * **Learning Resources:** W3Schools, freeCodeCamp
 * **Website:** [Romantika Cosmetics](https://arham-aslam.github.io/Romantika-web-Page/)
 
-## Viewing Recommendation
-
-> The website can be viewed on mobile phones, laptops, and other compatible devices. However, **laptop, desktop, or wider-screen viewing is recommended** for the best experience, as mobile responsiveness will be further improved in future updates.
-
 ## Future Improvements
 
 This project will be continuously improved as I develop my web development skills. Future updates may include additional functionality, improved user experience, enhanced responsiveness, and new features.
